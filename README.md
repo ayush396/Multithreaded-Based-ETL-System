@@ -12,5 +12,6 @@ Depending on the hardware, threads can run fully parallel if they are distribute
 Exclusively, we implemented ETL aka Extract-Transform-Load using multi-threading where a large number of files are processed.
 Besides entire processing of the file at once, ETL allows us to run extract, transform and load simultaneously using three threads independently.
 Above Diagram illustrates the sequence of threads executing at a single instance 
-At instance3,1st file is loading... 2nd  file is transforming... 3rd file is extracting...
+
+**At instance3,1st file is loading... 2nd  file is transforming... 3rd file is extracting...**
 
